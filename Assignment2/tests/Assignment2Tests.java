@@ -32,7 +32,7 @@ class Assignment2Tests {
         int weight = 125;
         String answerCat = "Normal Weight";
         int answerBMI = 23;
-        String answer = "BMI: " + answerBMI + ", " + answerCat;
+        String answer = "Negative values are not accepted";
         Helper helper = new Helper();
         assertEquals(answer, helper.getBMI(feet, inches, weight));
     }
