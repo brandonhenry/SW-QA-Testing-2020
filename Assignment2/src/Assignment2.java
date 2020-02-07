@@ -5,7 +5,6 @@ public class Assignment2 {
         Tester tester = new Tester();
         tester.pack();
         tester.setVisible(true);
-
     }
 
 

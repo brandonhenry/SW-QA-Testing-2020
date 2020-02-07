@@ -2,11 +2,6 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import net.miginfocom.swing.*;
-/*
- * Created by JFormDesigner on Tue Feb 04 14:38:26 CST 2020
- */
-
-
 /**
  * @author unknown
  */

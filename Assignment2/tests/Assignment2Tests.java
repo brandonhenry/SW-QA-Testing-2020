@@ -22,7 +22,7 @@ class Assignment2Tests {
     }
 
     /**
-     * Tests functionality of getBMI using http://extoxnet.orst.edu/faqs/dietcancer/web2/twohowto.html
+     * Tests negative values with getBMI function
      * @return
      */
     @Test

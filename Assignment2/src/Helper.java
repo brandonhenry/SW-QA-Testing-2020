@@ -1,8 +1,13 @@
 public class Helper {
+    /**
+     * Determines BMI based on height and weight.
+     * @param feet height in feet
+     * @param inches height in inches
+     * @param weight weight in pounds
+     * @return BMI and BMI category
+     */
     public String getBMI(int feet, int inches, int weight){
-        System.out.println(feet);
-        System.out.println(inches);
-        System.out.println(weight);
+        if (feet < 0 || inches < 0 || weight < 0) return "Negative values are not accepted";
         // multiply weight by 0.45
         double weightBMI = weight * 0.45;
         // multiple height in inches by 0.025
