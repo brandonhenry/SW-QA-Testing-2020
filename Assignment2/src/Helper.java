@@ -1,5 +1,8 @@
 public class Helper {
     public String getBMI(int feet, int inches, int weight){
+        System.out.println(feet);
+        System.out.println(inches);
+        System.out.println(weight);
         // multiply weight by 0.45
         double weightBMI = weight * 0.45;
         // multiple height in inches by 0.025
@@ -22,7 +25,7 @@ public class Helper {
             weightCat = BMI.OBESE.toString();
         }
 
-        return "Weight: " + Math.round(result) + ", " + weightCat;
+        return "BMI: " + Math.round(result) + ", " + weightCat;
     }
 
     /**
