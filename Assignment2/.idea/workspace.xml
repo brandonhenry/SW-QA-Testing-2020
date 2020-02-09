@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f35eae-ad10-41ed-89db-8b5456c10ea5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Assignment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Assignment2/Assignment2Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment2/Assignment2Tests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Assignment2Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Assignment2Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <recent name="C:\Users\itsbh\IdeaProjects\Assignment2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Assignment2Tests.testBMINegativeValue">
+  <component name="RunManager" selected="JUnit.Assignment2Tests.testSavingsNegative">
     <configuration name="Assignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment2" />
       <module name="Assignment2" />
@@ -63,28 +64,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Assignment2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Assignment2Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Assignment2Tests.testBMILimits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Assignment2Tests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Assignment2Tests.testBMI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Assignment2Tests" />
-      <option name="METHOD_NAME" value="testBMI" />
+      <option name="METHOD_NAME" value="testBMILimits" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,13 +84,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Assignment2Tests.testSavings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Assignment2Tests" />
+      <option name="METHOD_NAME" value="testSavings" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment2Tests.testSavingsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Assignment2Tests" />
+      <option name="METHOD_NAME" value="testSavingsNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Assignment2Tests.testSavingsNegative" />
+        <item itemvalue="JUnit.Assignment2Tests.testSavings" />
+        <item itemvalue="JUnit.Assignment2Tests.testBMILimits" />
         <item itemvalue="JUnit.Assignment2Tests.testBMINegativeValue" />
         <item itemvalue="Application.Assignment2" />
-        <item itemvalue="JUnit.Assignment2Tests.testBMI" />
-        <item itemvalue="JUnit.All in Assignment2" />
-        <item itemvalue="JUnit.Assignment2Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +141,8 @@
       <workItem from="1581042518429" duration="216000" />
       <workItem from="1581042752445" duration="48000" />
       <workItem from="1581042819061" duration="2485000" />
-      <workItem from="1581045451586" duration="819000" />
+      <workItem from="1581045451586" duration="1093000" />
+      <workItem from="1581095633254" duration="4531000" />
     </task>
     <servers />
   </component>
@@ -166,30 +171,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="451" y="119" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581044865345" />
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1581046274035">
+    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1581206206738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581046274035" />
-    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1581046274035">
+    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581206206738" />
+    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1581206206737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581046274035" />
-    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1581046274035">
+    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581206206737" />
+    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1581206206737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581046274035" />
-    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1581046274035">
+    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581206206737" />
+    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1581206206738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581046274035" />
+    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581206206738" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1581045522903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581045522903" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581045487200">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581095723435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581045487200" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581095723435" />
     <state x="498" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581042374055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

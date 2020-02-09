@@ -54,6 +54,7 @@ public class Helper {
     }
 
     public String checkRetirement(int currentAge, int salary, int percentSaved, int savingsGoal) {
+        if (currentAge < 0 || salary < 0 || percentSaved < 0 || savingsGoal < 0) return "Negative values are not allowed.";
         int age = getRetirementAge(currentAge, salary, percentSaved, savingsGoal);
         System.out.println(age);
         if (age >= 100) {
