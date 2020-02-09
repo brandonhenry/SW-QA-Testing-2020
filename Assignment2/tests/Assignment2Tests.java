@@ -83,4 +83,19 @@ class Assignment2Tests {
         Helper helper = new Helper();
         assertEquals(answer, helper.checkRetirement(currAge, salary, percentSaved, savingGoal));
     }
+
+    /**
+     * Tests getting retirement age function with negative input values.
+     */
+    @Test
+    void testSavingsGoalNotMet(){
+        int currAge = 23;
+        int salary = 1;
+        int percentSaved = 1;
+        int savingGoal = 1000000000;
+        int age = 35;
+        String answer = "Retirement goal will be met at age: " + age;
+        Helper helper = new Helper();
+        assertEquals(answer, helper.checkRetirement(currAge, salary, percentSaved, savingGoal));
+    }
 }
