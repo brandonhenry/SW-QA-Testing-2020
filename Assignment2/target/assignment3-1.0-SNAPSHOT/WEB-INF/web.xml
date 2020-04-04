@@ -11,14 +11,4 @@
         based on the recommendations of the Application Developer's Guide.
     </description>
 
-    <servlet>
-        <servlet-name>MainServlet</servlet-name>
-        <servlet-class>com.sw.a3.controller.MainServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>MainServlet</servlet-name>
-        <url-pattern>/*</url-pattern>
-    </servlet-mapping>
-
 </web-app>
