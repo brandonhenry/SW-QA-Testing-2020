@@ -1,7 +1,5 @@
-import com.sw.a3.Helper;
+import com.sw.a3.controller.CalculatorController;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.engine.*;
-import org.junit.jupiter.params.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -19,8 +17,8 @@ class Assignment2Tests {
         String answerCat = "Normal Weight";
         int answerBMI = 23;
         String answer = "BMI: " + answerBMI + ", " + answerCat;
-        Helper helper = new Helper();
-        assertEquals(answer, helper.getBMI(feet, inches, weight));
+        CalculatorController calculatorController = new CalculatorController();
+        assertEquals(answer, calculatorController.getBMI(feet, inches, weight));
     }
 
     /**
@@ -35,8 +33,8 @@ class Assignment2Tests {
         String answerCat = "Normal Weight";
         int answerBMI = 23;
         String answer = "Negative values are not accepted";
-        Helper helper = new Helper();
-        assertEquals(answer, helper.getBMI(feet, inches, weight));
+        CalculatorController calculatorController = new CalculatorController();
+        assertEquals(answer, calculatorController.getBMI(feet, inches, weight));
     }
 
     /**
@@ -51,8 +49,8 @@ class Assignment2Tests {
         String answerCat = "Underweight";
         int answerBMI = 1;
         String answer = "BMI: " + answerBMI + ", " + answerCat;
-        Helper helper = new Helper();
-        assertEquals(answer, helper.getBMI(feet, inches, weight));
+        CalculatorController calculatorController = new CalculatorController();
+        assertEquals(answer, calculatorController.getBMI(feet, inches, weight));
     }
 
     /**
@@ -66,8 +64,8 @@ class Assignment2Tests {
         int savingGoal = 10000000;
         int age = 35;
         String answer = "Retirement goal will be met at age: " + age;
-        Helper helper = new Helper();
-        assertEquals(answer, helper.checkRetirement(currAge, salary, percentSaved, savingGoal));
+        CalculatorController calculatorController = new CalculatorController();
+        assertEquals(answer, calculatorController.checkRetirement(currAge, salary, percentSaved, savingGoal));
     }
 
     /**
@@ -81,8 +79,8 @@ class Assignment2Tests {
         int savingGoal = 10000000;
         int age = 35;
         String answer = "Negative values are not allowed.";
-        Helper helper = new Helper();
-        assertEquals(answer, helper.checkRetirement(currAge, salary, percentSaved, savingGoal));
+        CalculatorController calculatorController = new CalculatorController();
+        assertEquals(answer, calculatorController.checkRetirement(currAge, salary, percentSaved, savingGoal));
     }
 
     /**
@@ -96,7 +94,7 @@ class Assignment2Tests {
         int savingGoal = 1000000000;
         int age = 35;
         String answer = "Retirement goal will be met at age: " + age;
-        Helper helper = new Helper();
-        assertEquals(answer, helper.checkRetirement(currAge, salary, percentSaved, savingGoal));
+        CalculatorController calculatorController = new CalculatorController();
+        assertEquals(answer, calculatorController.checkRetirement(currAge, salary, percentSaved, savingGoal));
     }
 }

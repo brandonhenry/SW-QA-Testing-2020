@@ -1,5 +1,7 @@
-com\sw\a3\BMI.class
-com\sw\a3\Helper.class
 com\sw\a3\config\SpringConfig.class
+com\sw\a3\controller\CalculatorController$BMICalculator.class
+com\sw\a3\BMI.class
+com\sw\a3\controller\CalculatorController$RetirementCalculator.class
+com\sw\a3\controller\CalculatorController.class
 com\sw\a3\controller\WelcomeController.class
 com\sw\a3\WebInitializer.class
