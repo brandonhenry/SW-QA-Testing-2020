@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-boot-2.2.6.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spring-boot-2.2.6.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

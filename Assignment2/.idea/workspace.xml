@@ -7,9 +7,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f35eae-ad10-41ed-89db-8b5456c10ea5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_api_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_springframework_web_servlet_3_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_api_2_0_0_alpha0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_boot_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_boot_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_context_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_web_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sw/a3/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment2/Assignment2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment2/BMI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment2/Helper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment2/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment2/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment2/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment2/Tester.jfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment2/target/assignment3-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment2/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/Assignment2/Assignment2Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Assignment2/Assignment2Tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Assignment2Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Assignment2Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/a3/BMI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/a3/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tester.jfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/assignment3-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/assignment3-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/assignment3-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/assignment3-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/assignment3-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/assignment3-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Assignment2Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Assignment2Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +59,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1X2dRpFTfx3G2rhpm2LXeTzJqD4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,41 +76,42 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/junit-4.12.jar!/" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-autoconfigure-2.2.6.RELEASE.jar!/" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\itsbh\Documents\GitHub\SW-QA-Testing-2020\Assignment2" />
-      <recent name="C:\Users\itsbh\IdeaProjects\Assignment2" />
+      <recent name="C:\Users\itsbh\Documents\GitHub\SW-QA-Testing-2020\Assignment2\src" />
+      <recent name="C:\Users\itsbh\Documents\GitHub\SW-QA-Testing-2020\Assignment2\src\main\java\com\sw\a3" />
+      <recent name="C:\Users\itsbh\Documents\GitHub\SW-QA-Testing-2020\Assignment2\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\itsbh\Documents\GitHub\SW-QA-Testing-2020\Assignment2\src\main" />
+      <recent name="C:\Users\itsbh\Documents\GitHub\SW-QA-Testing-2020\Assignment2\src\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Assignment2Tests.testSavingsGoalNotMet">
+  <component name="RunManager" selected="Maven.Heroku Deploy">
+    <configuration name="Assignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment2" />
+      <module name="Assignment2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Assignment2Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Assignment2Tests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Assignment2Tests.testBMILimits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Assignment2Tests" />
-      <option name="METHOD_NAME" value="testBMILimits" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,13 +146,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Heroku Deploy" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="heroku:deploy-war" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Assignment2" />
+      <item itemvalue="JUnit.Assignment2Tests" />
+      <item itemvalue="JUnit.Assignment2Tests.testSavings" />
+      <item itemvalue="JUnit.Assignment2Tests.testSavingsGoalNotMet" />
+      <item itemvalue="JUnit.Assignment2Tests.testSavingsNegative" />
+      <item itemvalue="Maven.Heroku Deploy" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Assignment2" />
         <item itemvalue="JUnit.Assignment2Tests.testSavingsGoalNotMet" />
         <item itemvalue="JUnit.Assignment2Tests" />
         <item itemvalue="JUnit.Assignment2Tests.testSavingsNegative" />
         <item itemvalue="JUnit.Assignment2Tests.testSavings" />
-        <item itemvalue="JUnit.Assignment2Tests.testBMILimits" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +217,11 @@
       <workItem from="1581042752445" duration="48000" />
       <workItem from="1581042819061" duration="2485000" />
       <workItem from="1581045451586" duration="1093000" />
-      <workItem from="1581095633254" duration="6004000" />
+      <workItem from="1581095633254" duration="6662000" />
+      <workItem from="1581356586445" duration="645000" />
+      <workItem from="1585847663519" duration="8455000" />
+      <workItem from="1585856243398" duration="7797000" />
+      <workItem from="1586030657778" duration="4597000" />
     </task>
     <servers />
   </component>
@@ -164,50 +242,82 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Project_Structure" timestamp="1586030805276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586030805276" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585852795445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585852795445" />
+    <state x="532" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585848457211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="532" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585848457211" />
+    <state x="921" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1586031596703">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="921" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586031596702" />
+    <state x="402" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585854337427">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="402" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1585854337427" />
     <state x="574" y="307" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1581044417104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="307" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1581044417104" />
-    <state x="451" y="119" key="FileChooserDialogImpl" timestamp="1581044865345">
+    <state x="421" y="154" key="FileChooserDialogImpl" timestamp="1586034688670">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="451" y="119" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581044865345" />
-    <state width="1493" height="311" key="GridCell.Tab.0.bottom" timestamp="1581209564814">
+    <state x="421" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586034688670" />
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom" timestamp="1586034953511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="311" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581209564814" />
-    <state width="1493" height="311" key="GridCell.Tab.0.center" timestamp="1581209564813">
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586034953511" />
+    <state width="1493" height="235" key="GridCell.Tab.0.center" timestamp="1586034953511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="311" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581209564813" />
-    <state width="1493" height="311" key="GridCell.Tab.0.left" timestamp="1581209564812">
+    <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586034953511" />
+    <state width="1493" height="235" key="GridCell.Tab.0.left" timestamp="1586034953511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="311" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581209564812" />
-    <state width="1493" height="311" key="GridCell.Tab.0.right" timestamp="1581209564813">
+    <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586034953511" />
+    <state width="1493" height="235" key="GridCell.Tab.0.right" timestamp="1586034953511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="311" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581209564813" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1581208906387">
+    <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586034953511" />
+    <state x="346" y="0" key="SettingsEditor" timestamp="1586034691437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581208906387" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581095723435">
+    <state x="346" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586034691437" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1586030769875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581095723435" />
-    <state x="498" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581042374055">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586030769875" />
+    <state x="498" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585860384595">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1581042374055" />
+    <state x="498" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1585860384595" />
     <state x="463" y="10" width="609" height="804" key="find.popup" timestamp="1581045351159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="10" width="609" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581045351159" />
+    <state x="209" y="34" key="new project wizard" timestamp="1581386438492">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1581386438491" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1585852318411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585852318411" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581046191729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581046191729" />
+    <state x="382" y="96" key="spring file set editor" timestamp="1586030801994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="382" y="96" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1586030801994" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Assignment2$Assignment2Tests.ic" NAME="Assignment2Tests Coverage Results" MODIFIED="1581039353258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

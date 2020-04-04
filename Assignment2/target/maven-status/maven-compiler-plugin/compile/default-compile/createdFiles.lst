@@ -1,0 +1,5 @@
+com\sw\a3\BMI.class
+com\sw\a3\Helper.class
+com\sw\a3\controller\MainServlet.class
+com\sw\a3\config\SpringConfig.class
+com\sw\a3\WebInitializer.class

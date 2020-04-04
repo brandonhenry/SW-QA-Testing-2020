@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.springframework.web.servlet-3.2.2.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/org.springframework.web.servlet-3.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
