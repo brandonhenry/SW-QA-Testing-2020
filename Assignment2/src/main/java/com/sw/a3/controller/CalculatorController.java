@@ -34,6 +34,16 @@ public class CalculatorController extends HttpServlet {
         request.getRequestDispatcher("/").forward(request, response);
     }
 
+    public String getBMI(int feet, int inches, int weight){
+        BMICalculator bmiCalc = BMICalculator.fromValues(feet, inches, weight);
+        return bmiCalc.bmiResult;
+    }
+
+    public String checkRetirement(int age, int salary, int percentSaved, int savingsGoal){
+        RetirementCalculator retirementCalculator = RetirementCalculator.fromValues(age, salary, percentSaved, savingsGoal);
+        return retirementCalculator.retirementResult;
+    }
+
     private String checkCalc(HttpServletRequest request){
         return request.getParameter("calc").equals("Calculate Retirement Age") ? "retirement" : "bmi";
     }
@@ -51,6 +61,10 @@ public class CalculatorController extends HttpServlet {
             this.inches = inches;
             this.weight = weight;
             this.bmiResult = getBMI(feet, inches, weight);
+        }
+
+        public static BMICalculator fromValues(int feet, int inches, int weight){
+            return new BMICalculator(feet, inches, weight);
         }
 
         public static BMICalculator fromRequestParameters(HttpServletRequest request){
@@ -126,6 +140,10 @@ public class CalculatorController extends HttpServlet {
             int savingsGoal = Integer.parseInt(request.getParameter("savingsGoal"));
 
             return new RetirementCalculator(currentAge, salary, percentSaved, savingsGoal);
+        }
+
+        public static RetirementCalculator fromValues(int age, int salary, int percentSaved, int savingsGoal){
+            return new RetirementCalculator(age, salary, percentSaved, savingsGoal);
         }
 
         public void setRetirementResult(HttpServletRequest request){

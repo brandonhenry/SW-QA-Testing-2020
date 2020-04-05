@@ -8,17 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="42f35eae-ad10-41ed-89db-8b5456c10ea5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sw/a3/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/a3/controller/CalculatorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Assignment2Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Assignment2Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/assignment3-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/assignment3-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/assignment3-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/assignment3-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sw/a3/Helper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/SESSIONS.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sw/a3/controller/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/a3/controller/CalculatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sw/a3/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sw/a3/controller/WelcomeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +59,18 @@
       <recent name="C:\Users\itsbh\Documents\GitHub\SW-QA-Testing-2020\Assignment2\src\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Heroku Deploy">
+  <component name="RunManager" selected="JUnit.All in Assignment2">
     <configuration name="Assignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment2" />
       <module name="Assignment2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Assignment2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,16 +80,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Assignment2Tests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Assignment2Tests.testSavings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Assignment2Tests" />
-      <option name="METHOD_NAME" value="testSavings" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,18 +132,18 @@
     <list>
       <item itemvalue="Application.Assignment2" />
       <item itemvalue="JUnit.Assignment2Tests" />
-      <item itemvalue="JUnit.Assignment2Tests.testSavings" />
       <item itemvalue="JUnit.Assignment2Tests.testSavingsGoalNotMet" />
       <item itemvalue="JUnit.Assignment2Tests.testSavingsNegative" />
       <item itemvalue="Maven.Heroku Deploy" />
+      <item itemvalue="JUnit.All in Assignment2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Assignment2" />
+        <item itemvalue="JUnit.Assignment2Tests" />
         <item itemvalue="Application.Assignment2" />
         <item itemvalue="JUnit.Assignment2Tests.testSavingsGoalNotMet" />
-        <item itemvalue="JUnit.Assignment2Tests" />
         <item itemvalue="JUnit.Assignment2Tests.testSavingsNegative" />
-        <item itemvalue="JUnit.Assignment2Tests.testSavings" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +179,7 @@
       <workItem from="1581356586445" duration="645000" />
       <workItem from="1585847663519" duration="8455000" />
       <workItem from="1585856243398" duration="7797000" />
-      <workItem from="1586030657778" duration="10676000" />
+      <workItem from="1586030657778" duration="14165000" />
     </task>
     <servers />
   </component>
@@ -243,22 +232,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="421" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586034688670" />
-    <state width="1493" height="235" key="GridCell.Tab.0.bottom" timestamp="1586042448969">
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom" timestamp="1586047282513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586042448969" />
-    <state width="1493" height="235" key="GridCell.Tab.0.center" timestamp="1586042448969">
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586047282513" />
+    <state width="1493" height="235" key="GridCell.Tab.0.center" timestamp="1586047282513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586042448969" />
-    <state width="1493" height="235" key="GridCell.Tab.0.left" timestamp="1586042448969">
+    <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586047282513" />
+    <state width="1493" height="235" key="GridCell.Tab.0.left" timestamp="1586047282512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586042448969" />
-    <state width="1493" height="235" key="GridCell.Tab.0.right" timestamp="1586042448969">
+    <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586047282512" />
+    <state width="1493" height="235" key="GridCell.Tab.0.right" timestamp="1586047282513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586042448969" />
+    <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586047282513" />
     <state x="346" y="0" key="SettingsEditor" timestamp="1586042484354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -293,6 +282,7 @@
     <state x="382" y="96" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1586030801994" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Assignment2$All_in_Assignment2.ic" NAME="All in Assignment2 Coverage Results" MODIFIED="1586047282457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Assignment2$Assignment2Tests.ic" NAME="Assignment2Tests Coverage Results" MODIFIED="1581039353258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
